@@ -1,0 +1,192 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 37px 30.53px auto 36px;
+}
+
+h1{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 26px;
+}
+
+.about-and-picture{
+    display: flex;
+}
+
+.about p{
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.picture{
+    position: relative;
+    height: 150px;
+    margin-top: -10px;
+}
+
+.picture img{
+    width: 146.32px;
+    height: 146.78px;
+}
+
+.rounded-shape{
+    position: absolute;
+    bottom: -10px;
+    left: -13px;
+    
+    z-index: -1;
+    background-color: #EFEFEF;
+    border-radius: 100%;
+    border: 1px solid #EFEFEF;
+    width: 170.55px;
+    height: 27.49px;
+}
+
+.footer-info{
+    display: flex;
+    margin-top: 40px;
+}
+
+.left-photo{
+    display: none;
+}
+
+.footer-info-item{
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+
+h3{
+    margin-bottom: -10px;
+    font-size: 12px;
+}
+
+.footer-info p{
+    font-size: 10px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 834px){
+    body{
+        margin: 37px 30.53px auto 36px;
+    }
+
+    .about-and-picture{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-info{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 834px) and (max-width: 1440px){
+    body{
+        margin: 30px 86.69px auto 72px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    .about p{
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+
+    .picture{
+        top: 105px;
+        margin-left: 110px;
+    }
+
+    .picture img{
+        width: 181.86px;
+        height: 182.44px;
+    }
+
+    .rounded-shape{
+        bottom: -50px;
+        left: -20px;
+        
+        width: 211.98px;
+        height: 34.17px;
+    }
+
+    .footer-info{
+        margin-top: 20px;
+    }
+
+    .footer-info-item{
+        margin-right: 55px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    
+    .footer-info p{
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1440px){
+    body{
+        margin: 91px 150px 150px 124px;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+
+    .about p{
+        line-height: 36px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .picture{
+        top: 185px;
+        margin-left: 190px;
+    }
+
+    .picture img{
+        width: 314px;
+        height: 315px;
+    }
+
+    .rounded-shape{
+        bottom: -190px;
+        left: -25px;
+        
+        width: 366px;
+        height: 59px;
+    }
+
+    .left-photo{
+        display: block;
+        margin-right: 80px;
+        margin-top: 44px;
+        width: 232px;
+        height: 203px;
+    }
+
+    .footer-info{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .footer-info-item{
+        margin-top: 90px;
+        margin-right: 95px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+    
+    .footer-info p{
+        font-size: 18px;
+    }
+}
